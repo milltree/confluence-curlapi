@@ -1,0 +1,43 @@
+{
+	"name": "confluence-curlapi",
+	"version": "0.1.0",
+	"description": "Confluence API wrapper for NodeJS based on curl",
+	"main": "./lib/index.js",
+	"scripts": {
+		"build": "rimraf lib/ && babel src/ --out-dir lib/ --ignore ./node_modules",
+		"precommit": "npm run lint && npm run test && npm run build",
+		"test": "TBD",
+		"lint": "eslint src/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/milltree/confluence-curlapi"
+	},
+	"keywords": [
+		"atlassian",
+		"confluence",
+		"api",
+		"wiki",
+		"node.js",
+		"npm"
+	],
+	"author": "Marion Hofer <email...>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/milltree/confluence-curlapi/issues"
+	},
+	"homepage": "https://github.com/milltree/confluence-curlapi",
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-eslint": "^8.2.1",
+		"babel-preset-env": "^1.6.1",
+		"eslint": "^3.18.0",
+		"eslint-config-formidable": "^2.0.1",
+		"eslint-plugin-filenames": "^1.1.0",
+		"eslint-plugin-import": "^2.2.0",
+		"rimraf": "^2.6.2"
+	},
+	"dependencies": {
+		"curlrequest": "^1.0.1"
+	}
+}

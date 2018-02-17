@@ -1,3 +1,6 @@
----
-"extends":
-	- "formidable/configurations/es6"
+{
+	"extends": "formidable/configurations/es",
+	"rules": {
+		"quotes": "off"
+	}
+}

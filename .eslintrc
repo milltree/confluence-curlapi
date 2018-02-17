@@ -1,6 +1,29 @@
 {
-	"extends": "formidable/configurations/es",
-	"rules": {
-		"quotes": "off"
-	}
+    "extends": "formidable/configurations/es6",
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "rules": {
+        "quotes": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "max-params": [
+            "error",
+            6
+        ],
+        "func-style": [
+            "error",
+            "declaration"
+        ],
+        "no-use-before-define": "off",
+        "no-console": "warn",
+        "no-magic-numbers": "warn",
+        "max-nested-callbacks": [
+            "error",
+            4
+        ]
+    }
 }

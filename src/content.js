@@ -67,8 +67,6 @@ export class ConfluenceContentApi extends ConfluenceRawApi {
             }
         };
 
-        // TODO: Check putting editor format
-
         this.post('/content', params, data, callback);
     }
 

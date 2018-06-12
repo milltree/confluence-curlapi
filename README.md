@@ -2,9 +2,9 @@
 
 This is a wrapper for Atlassian's Confluence Rest API based on Node.js and `curl`.
 
-[Overview of the Confluence Rest API](https://docs.atlassian.com/atlassian-confluence/REST/6.6.0)
+[Overview of the Confluence Rest API](https://docs.atlassian.com/atlassian-confluence/REST)
 
-[Example requests for the Confluence Rest API]()
+[Example requests for the Confluence Rest API](https://developer.atlassian.com/server/confluence/confluence-rest-api-examples/)
 
 ## Getting started
 

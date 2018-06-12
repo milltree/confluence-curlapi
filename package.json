@@ -7,8 +7,8 @@
         "lib": "./lib"
     },
     "scripts": {
+        "prerelease": "npm run lint && npm run test && npm run build",
         "build": "rimraf lib/ && babel src/ --out-dir lib/ --ignore ./node_modules",
-        "precommit": "npm run lint && npm run test && npm run build",
         "test": "jest",
         "lint": "eslint src/ && eslint test/"
     },
